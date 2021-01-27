@@ -31,7 +31,7 @@ const socialsData = [
         href: '#'
     },
     {
-        icon: 'linkedin',
+        icon: 'rss',
         href: '#'
     },
 ];
