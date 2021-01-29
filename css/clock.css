@@ -1,0 +1,29 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+.clock > .time {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.clock > .time > .value {
+    font-size: 60px;
+    line-height: 60px;
+}
+.clock > .time > .label {
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .clock > .time {
+        width: 50%;
+    }
+    .clock > .time:nth-of-type(1),
+    .clock > .time:nth-of-type(2) {
+        margin-bottom: 30px;
+    }
+}
